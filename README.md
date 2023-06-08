@@ -1,16 +1,17 @@
-# Full-Stack React Example
+# Full-Stack React Playground
 
-This repo contains an example of a full-stack application with an express backend and a React frontend.
+This repo contains a full-stack application with an express backend and a React frontend. It's a simple application to showcase state management, functional components, and conditional rendering.
 
-It uses vite as the module bundler and dotenv for configuration. It's organized as a mono-repo using [npm workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces) which allows us to have our client and server in one repo.
+It uses Vite as the module bundler and dotenv for configuration. It's organized as a mono-repo using [npm workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces) which allows us to have our client and server in one repo.
 
 > **Note**: When you run `npm install` at the root, it will install all dependencies listed in `package.json`, `server/package.json`, and `client/package.json`.
 
-## Customizing the Template
+## This playground contains:
 
-1. Create new repo using this one as a template.
-1. Pull that repo down.
-1. Update `./server/migration.sql` to the schema for your application.
+1. A light switch guessing game. See how many tries it takes you to get all the switches to stay on.
+2. A simple memory game. See how many tries it takes you to get all the matches.
+3. A  new game that I haven't thougt about yet...
+4. Update `./server/migration.sql` to the schema for your application.
 
 ## Development Setup
 
